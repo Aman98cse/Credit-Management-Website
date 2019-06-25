@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="bootstrap/jquery-3.3.1.min.js" ></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+<style>
+	body{
+		position:relative;
+	}
+	.jumbotron{
+		width:100%;
+		height:600px;
+		background-image:url(images/helloquence-51716-unsplash.jpg);
+		background-size:cover;
+	}
+	#joinButton{
+		margin-top:15px;
+		width:200px;
+		height:50px;
+		font-size:25px;
+	}
+	#my_name{
+		font-size:75px;
+		animation: animate_name 7s infinite;
+	}
+	@keyframes animate_name{
+		0%{
+			color:blue;
+		}
+		25%{
+			color:green;
+		}
+		50%{
+			color:coral;
+		}
+		75%{
+			color:red;
+		}
+		100%{
+			color:yellow;
+		}
+		
+	}
+</style>
+
+</head>
+<body data-spy="scroll" data-toggle="#scroll-navbar">
+
+<div id="home" class="jumbotron"><center><h1 id="my_name">Credit Management System</h1><div class="container"><hr/></div>
+<h2 style="color:#fff;font-size:35px;">Simple & Easy way to manage credit</h1>
+<a href="home.html"><button class="btn btn-primary " id="joinButton">Click Here</button></a>
+</center></div>
+</body>
+</html>
